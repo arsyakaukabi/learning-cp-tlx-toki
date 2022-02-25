@@ -1,0 +1,5 @@
+n = int(input())
+a = set(map(int, input().split()))
+if len(a) == 1: print(1)
+elif len(a) == n: print(n)
+else: print(n-1)
