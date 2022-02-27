@@ -1,0 +1,5 @@
+input(); a = list(map(int, input().split()))
+if len(set(a)) == 1: print('EQUAL')
+elif a == sorted(a): print('NONDECREASING')
+elif a == sorted(a, reverse=True): print('NONINCREASING')
+else: print('NONE')
