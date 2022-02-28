@@ -1,2 +1,1 @@
-i=lambda:input();i()
-print(i().split().index(i())+1)
+i=input;i();print(i().index(i())//2+1)
