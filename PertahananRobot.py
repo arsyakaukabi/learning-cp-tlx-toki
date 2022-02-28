@@ -1,3 +1,3 @@
-s = input()
+s = input(); _ = lambda x,j:x[j]-x[j+1]
 a = [s.count(i) for i in 'RLUD']
-print(a[0]-a[1],a[2]-a[3])
+print(_(a,0),_(a,2))
