@@ -1,0 +1,1 @@
+*s,={2,3,5,7}-set(map(int,input().split()));print(s[0])
