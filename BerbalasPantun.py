@@ -1,2 +1,2 @@
-i=lambda:sum(map(int,input().split()))
-print(int(input())*(i()+i()))
+_=lambda:sum(map(int,input().split()))
+print(_()*(_()+_()))
