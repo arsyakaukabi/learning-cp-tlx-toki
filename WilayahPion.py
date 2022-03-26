@@ -1,0 +1,1 @@
+n,m=map(int,input().split());print('NYoe s'[n%4==0 and m%4==0::2])
