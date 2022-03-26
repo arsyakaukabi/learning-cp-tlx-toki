@@ -1,0 +1,1 @@
+n,m,r=map(int,input().split());print(min(-(-n//(2*r+1)),-(-m//(2*r+1))))

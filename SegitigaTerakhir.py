@@ -1,0 +1,1 @@
+a,b,c=sorted(map(int,input().split()));print('TYiad a k'[(a==b)&(c-b==1)&(a>1)::2])
