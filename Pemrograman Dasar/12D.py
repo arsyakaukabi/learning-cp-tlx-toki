@@ -1,0 +1,1 @@
+s=input();print(('BUKAN','YA')[s==s[::-1]])
