@@ -1,0 +1,1 @@
+print(int(str(sum([int(_[::-1]) for _ in input().split()]))[::-1]))
